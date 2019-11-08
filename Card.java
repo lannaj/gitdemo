@@ -2,10 +2,6 @@
  * Defines a class for cards that store the card's rank (2-10, J, Q, K, A),
  * suit (H - Hearts, D - Diamonds, S - Spades, C - Clubs),
  * and scoring value (2-10 - face value, J-K - 10, A - 1 or 11).
- * Defines an "empty" card used to represent & display an empty position
- * on the game board grid.
- * Defines a "none" card used to represent non-playable positions
- * on the game board grid.
  * Defines methods that formats cards for display on a game board.
  * @author LMack
  */
@@ -101,5 +97,6 @@ public class Card {
 	public void setValue(int value) {
 		this.value = value;
 	}
+
 	
 }
